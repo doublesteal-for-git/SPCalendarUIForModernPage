@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-calendar-ui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spCalendarUi/SpCalendarUiWebPart.js",
+          "manifest": "./src/webparts/spCalendarUi/SpCalendarUiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpCalendarUiWebPartStrings": "lib/webparts/spCalendarUi/loc/{locale}.js"
+  }
+}

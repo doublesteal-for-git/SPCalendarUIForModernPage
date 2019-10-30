@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-calendar-ui-for-modern-page-client-side-solution",
+    "id": "f79ad03c-302a-436f-b890-27c8fbefa68a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-calendar-ui-for-modern-page.sppkg"
+  }
+}
